@@ -1,0 +1,21 @@
+.ref-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+
+    > * {
+        width: 100%;
+        text-align: center;
+    }
+
+    :first-child {
+        border-bottom: 1px solid black;
+    }
+}
+
+
