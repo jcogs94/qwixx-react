@@ -1,0 +1,5 @@
+#game {
+    width: calc(80% - 5px);
+    height: 100%;
+    background-color: blue;
+}
