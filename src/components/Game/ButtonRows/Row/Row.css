@@ -1,0 +1,19 @@
+.button-row {
+    width: 100%;
+    padding: 3px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+    > button {
+        height: 100%;
+        width: calc((100% / 12) - 3px);
+    }
+    
+    > .lock {
+        border-radius: 100%;
+    }
+}

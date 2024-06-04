@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import ButtonRows from './ButtonRows/ButtonRows'
 import './Game.css'
 
-function Game() {
+function Game () {
   return <>
     <div id="game">
-        <h4>Qwixx</h4>
+        <ButtonRows />
     </div>
   </>
 }
